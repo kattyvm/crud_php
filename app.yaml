@@ -11,10 +11,10 @@ resources:
   memory_gb: 0.5
   disk_size_gb: 10
 
+# Para app engine
 env_variables:
-  MYSQL_HOST: /cloudsql/kathy-304221:us-central1:kattydb
+  MYSQL_HOST: mysql:unix_socket=/cloudsql/kathy-304221:us-central1:kattydb
   MYSQL_DB: test
   MYSQL_USER: root
   MYSQL_PASS: katty123
-  MYSQL_PORT: 3306
-  MYSQL_SOCKET: 
+  #MYSQL_PORT: 3306

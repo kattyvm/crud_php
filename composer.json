@@ -1,6 +1,7 @@
 {
   "require": {
     "silex/silex": "^2.3"
+    "google/cloud-storage": "^1.0"
   },
   "require-dev": {
     "symfony/browser-kit": "^4.4",
