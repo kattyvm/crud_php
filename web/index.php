@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/073f28487c.js" crossorigin="anonymous"></script>
 	<title>Lista</title>
 </head>
-<body class="container">
+<body class="container p-4">
 
 	<h2>Lista de Personas</h2>
 	
